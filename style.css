@@ -4,6 +4,7 @@
 body{
     background-color: black;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .menuBar{
@@ -46,6 +47,10 @@ body{
 .blogContainer{
     background-color: transparent;
     padding: 50px;
+}
+
+.portada{
+    transform: translateX(-50px) translateY(-50px);
 }
 
 .title{
