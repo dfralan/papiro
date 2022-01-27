@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 
 @media only screen and (max-width: 600px) {
-   .title{ font-size: 48px }
-   .date:{font-size: 24px}
-   .paragraph {font-size:32px}
 }
 
 body{
@@ -60,6 +57,7 @@ body{
 }
 
 .title{
+    font-size: 48px;
     line-height: 1.2;
     margin-bottom: 10px;
     font-size: 20;
@@ -68,7 +66,7 @@ body{
 
 .date{
     margin-bottom: 10px;
-    font-size: small;
+    font-size: 24px;
     color: #FFF;
     font-weight: 100;
 }
@@ -76,8 +74,7 @@ body{
 .paragraph{
     margin-bottom: 10px;
     line-height: 1.6;
-    font-size: small;
-    /* color: #22ffcd; */
+    font-size: 32px;
     color: white;
     font-weight: 100;
 }
